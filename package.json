@@ -1,6 +1,6 @@
 {
   "name": "text-base-lookup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "find out all text base files",
   "main": "src/index.js",
   "typings": "src/index.d.ts",
@@ -41,5 +41,8 @@
     "fast-glob": "2.2.3",
     "isbinaryfile": "3.0.3",
     "promisify": "0.0.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
