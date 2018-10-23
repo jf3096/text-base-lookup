@@ -34,6 +34,7 @@
     "prepublishOnly": "npm run build",
     "start": "ts-node src/index.ts"
   },
+  "homepage": "https://github.com/jf3096/text-base-lookup",
   "author": "She Ailun",
   "license": "MIT",
   "dependencies": {

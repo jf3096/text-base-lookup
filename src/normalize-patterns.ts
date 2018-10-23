@@ -6,7 +6,7 @@ import * as path from 'path';
  * @param patterns - 模式
  * @param contextDirectory - 环境路径
  */
-export default function normalizePatterns(patterns: Pattern | Pattern[], contextDirectory: string) {
+export default function normalizePatterns(patterns: Pattern | Pattern[], contextDirectory: string): Pattern[] {
   if (!Array.isArray(patterns)) {
     patterns = [patterns];
   }
@@ -15,5 +15,5 @@ export default function normalizePatterns(patterns: Pattern | Pattern[], context
       return path.resolve(contextDirectory, pattern);
     }
     return pattern;
-  })
+  });
 }
